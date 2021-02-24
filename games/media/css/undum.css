@@ -1,7 +1,7 @@
 /* Custom font hecha por mí */
 @font-face {
-    font-family: "Avis";
-    src: url("../font/Avis_Regular.oft");
+    font-family: Avis;
+    src: url("../font/Avis-Regular.otf");
 }
 
 body {
@@ -72,7 +72,7 @@ body {
 #title h1 span.fancy {
     font-size: 2.5em;
     line-height: 0;
-    font-family: Tangerine, Palatino, Times, "Times New Roman", serif;
+    font-family: Avis;
     font-style: italic;
     margin: 0 -0.2em;
 }
@@ -168,7 +168,6 @@ ul.options li:last-child {
 
 h1 {
     font-size: 1.0em;
-    text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2.3em 0 1.1em 0;
     color: #210;
