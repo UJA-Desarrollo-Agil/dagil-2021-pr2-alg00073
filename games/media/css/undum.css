@@ -1,6 +1,12 @@
+/* Custom font hecha por mí */
+@font-face {
+    font-family: "Avis";
+    src: url("../font/Avis_Regular.oft");
+}
+
 body {
     background: #170804 url("../img/page_bg.jpg") repeat-x left top;
-    font-family: Palatino, Times, "Times New Roman", serif;
+    font-family: Avis;
     font-size: 18px;
     line-height: 1.6em;
     background-attachment: fixed;

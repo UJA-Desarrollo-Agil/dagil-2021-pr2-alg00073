@@ -7,7 +7,7 @@
 /* A unique id for your game. This is never displayed. I use a UUID,
  * but you can use anything that is guaranteed unique (a URL you own,
  * or a variation on your email address, for example). */
-undum.game.id = "be1c95b9-cbc7-48c6-8e6a-89837aa9113e";
+undum.game.id = "5963acba-71dc-11eb-9439-0242ac130002";
 
 /* A string indicating what version of the game this is. Versions are
  * used to control saved-games. If you change the content of a game,
@@ -30,7 +30,7 @@ undum.game.slideUpSpeed = 500
 undum.game.situations = {
     start: new undum.SimpleSituation(
         "<h1>Starting Out with Undum</h1>\
-        <img src='media/games/tutorial/woodcut1.png' class='float_right'>\
+        <img src='media/games/practica2/woodcut1.png' class='float_right'>\
         <p>Welcome to the Undum tutorial. Undum is a tool for writing\
         hypertext interactive fiction. It has some unique features\
         and a visual design that encourages narrative games.</p>\
@@ -42,7 +42,7 @@ undum.game.situations = {
         digital form gives you far more flexibility to tell rich stories\
         and introduce more interesting game elements.</p>\
         \
-        <p class='transient'>Click <a href='hub'>this link to\
+        <p class='transient'>Click <a href='situations'>this link to\
         continue...</a></p>"
     ),
 
@@ -153,7 +153,7 @@ undum.game.situations = {
         character is already in that situation, then the situation's\
         <em>enter</em> method won't be called again.</p>\
         \
-        <img src='media/games/tutorial/woodcut2.png' class='float_left'>\
+        <img src='media/games/practica2/woodcut2.png' class='float_left'>\
         <p>The third type of link, then, is a general hyperlink. If your\
         link doesn't consist of a single element or pair of elements, as\
         above, then Undum will guess that you have a normal hyperlink. As\
@@ -322,7 +322,7 @@ undum.game.situations = {
     ),
     "boost-stamina": new undum.SimpleSituation(
         "<p>\
-        <img src='media/games/tutorial/woodcut3.png' class='float_right'>\
+        <img src='media/games/practica2/woodcut3.png' class='float_right'>\
         The progress bar is also useful in situations where the\
         character block is displaying just the whole number of a quality,\
         whereas some action changes a fraction. If the quality is displaying\
