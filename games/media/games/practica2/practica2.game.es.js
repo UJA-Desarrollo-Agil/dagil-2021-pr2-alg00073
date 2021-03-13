@@ -214,7 +214,7 @@ undum.game.situations = {
     "<p>Te diriges a la caja registradora con tu magnífica caja de cereales, la pones encima \
     del mostrador, y una hermosa señorita de unos 56 años te observa con cara rara. Mientras te indica el precio, \
     tú, sacas la cartera y observas que no tienes dinero... ¡Ese ladrón tambien te robó el dinero!, así que tienes \
-    dos opciones, o <a href='./correr'>correr y robarlo</a> o <a href='./contar-historia'>intentas convencerle</a></p>",
+    dos opciones, o <a href='./correr'>correr y robarlo</a> o <a href='./contarhistoria'>intentas convencerle</a></p>",
     {
       actions: {
         correr: function enter(character, system, action) {
@@ -223,7 +223,7 @@ undum.game.situations = {
             "<p>Miralo por el lado bueno, ¡del guantazo te explotó ese grano que llevabas días intentando explotar!</p>"
           );
         },
-        "contar-historia": function enter(character, system, action) {
+        contarhistoria: function enter(character, system, action) {
           system.doLink("historieta");
           system.setCharacterText(
             "<p>¡Tras llevarte tu caja de cereales fiada te sientes un verdadero maestro de la oratoría!</p>"
@@ -235,7 +235,7 @@ undum.game.situations = {
   guantazo: new undum.SimpleSituation(
     "<p>Te ha pillado en el mismo segundo que lo pensaste y del guantazo que \
             te ha dado, te dejó plantado en el sitio, asi que decides poner carita de pena y\
-             <a href='./contar-historia'>contarle tu historia</a>.</p>"
+             <a href='historieta'>contarle tu historia</a>.</p>"
   ),
   historieta: new undum.SimpleSituation(
     "<p>Dejo de escucharte cuando empezaste a decir no se qué de ladrones, pero para tu sorpresa, \
