@@ -9,6 +9,8 @@ La historia se ve prefijada por ciertos parámetros tales como:
 
 Aclaro que el personaje de la historia, posee mi nombre, pero no se relaciona conmigo, y es una historia totalmente fantasiosa, donde nada de lo que ocurre se asemeja a la realidad, ya que posee innumerable **textos sarcásticos e irónicos**.
 
+Como nota adicional, me gustaría remarcar que la **font** utilizada para la historia, es una custom font creada exclusivamente por mí, llamada **Avis**.
+
 ## Sinopsis
 En "Un robo inexorable" estás en la piel de Alberto Longo, un "estudiante" de Ing. Informática de la UJA, aunque mas conocido por ser un brillante detective, que no dudará de llevar su trabajo a su vida. La historia comienza por la mañana, cuando Alberto se da cuenta de que las cosas estan movidas de sitio, y sospecha de que ha entrado alguien en su cuarto. Acompaña a Alberto en su historia y explora los 2 finales principales que ofrece la historia, sin contar el final por no querer comenzar la historia.
 
